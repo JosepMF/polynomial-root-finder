@@ -51,6 +51,24 @@ Este proyecto en Rust está diseñado para evaluar funciones polinómicas y enco
 - También puede imprimir la derivada del polinomio.
 ---
 
+### Cómo usarlo
+1. **Compila el proyecto:**
+   ```sh
+   cargo build
+   ```
+2. **Ejecuta el proyecto:**
+   ```sh
+   cargo run
+   ```
+3. **Edita el polinomio y el rango de búsqueda:**
+   Cambia los coeficientes y el rango de búsqueda en el archivo `main.rs`:
+   ```rust
+   let init_a = -5.; // Límite inferior (requerido)
+   let init_b = 6.;  // Límite superior (requerido)
+   let polynomail = Polynomial::create(vec![12., -60., -3., 15.]);
+   ```
+   (Este ejemplo es para un polinomio de grado 3)
+
 ## 中文 (Chinese Mandarin)
 
 ### 这个项目的用途是什么？
@@ -83,21 +101,3 @@ Este proyecto en Rust está diseñado para evaluar funciones polinómicas y enco
    let polynomail = Polynomial::create(vec![12., -60., -3., 15.]);
    ```
    （此示例为三次多项式）
-
-### Cómo usarlo
-1. **Compila el proyecto:**
-   ```sh
-   cargo build
-   ```
-2. **Ejecuta el proyecto:**
-   ```sh
-   cargo run
-   ```
-3. **Edita el polinomio y el rango de búsqueda:**
-   Cambia los coeficientes y el rango de búsqueda en el archivo `main.rs`:
-   ```rust
-   let init_a = -5.; // Límite inferior (requerido)
-   let init_b = 6.;  // Límite superior (requerido)
-   let polynomail = Polynomial::create(vec![12., -60., -3., 15.]);
-   ```
-   (Este ejemplo es para un polinomio de grado 3)
