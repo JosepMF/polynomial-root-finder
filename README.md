@@ -49,7 +49,6 @@ Este proyecto en Rust está diseñado para evaluar funciones polinómicas y enco
   - Como un rango donde ambos extremos son raíces del polinomio.
   - Como un rango cuyos extremos son muy próximos y su media aritmética se muestra como resultado.
 - También puede imprimir la derivada del polinomio.
----
 
 ### Cómo usarlo
 1. **Compila el proyecto:**
@@ -68,6 +67,8 @@ Este proyecto en Rust está diseñado para evaluar funciones polinómicas y enco
    let polynomail = Polynomial::create(vec![12., -60., -3., 15.]);
    ```
    (Este ejemplo es para un polinomio de grado 3)
+
+---
 
 ## 中文 (Chinese Mandarin)
 
